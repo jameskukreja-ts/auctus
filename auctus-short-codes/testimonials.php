@@ -23,7 +23,7 @@
 <div id="tesmonial" class=" bg_images">
 	<div class="container">
 		<div class="multi_logos testmonial">
-			<div  data-aos="fade-right" class="col-md-6 auctus_testimonial">
+			<div  data-aos="fade-right" class="col-md-6 auctus_testimonial1">
 				<?php if(isset($testimonials[0]) && !empty($testimonials[0])): ?>
 					<p><?php echo $testimonials[0]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[0]['author'] ?></h5>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="multi_logos testmonial">
-			<div data-aos="fade-up-right" class="col-md-4 auctus_testimonial">
+			<div data-aos="fade-up-right" class="col-md-4 auctus_testimonial2">
 				<?php if(isset($testimonials[1]) && !empty($testimonials[1])): ?>
 					<p><?php echo $testimonials[1]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[1]['author'] ?></h5>
@@ -47,7 +47,7 @@
 			<div class="col-md-4">
 				&nbsp;
 			</div>
-			<div data-aos="fade-left" class="col-md-4 auctus_testimonial">
+			<div data-aos="fade-left" class="col-md-4 auctus_testimonial3">
 				<?php if(isset($testimonials[2]) && !empty($testimonials[2])): ?>
 					<p><?php echo $testimonials[2]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[2]['author'] ?></h5>
