@@ -432,7 +432,7 @@ margin-bottom:0px;
     z-index: 999;
 }
 .services_banner{
-background:url('/assets/images/mobile_video_bg.png') !important;
+background:url('assets/images/mobile_video_bg.png') !important;
 }
 /*
 .see-work:before{
@@ -506,7 +506,7 @@ see-work{display:none;}
       width: 100%;
 }
 .services_banner {
-    background: url(/assets/images/services1.jpg); 
+    background: url(assets/images/services1.jpg); 
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     padding: 0;
@@ -651,7 +651,7 @@ margin-left: -1em;}
 }
 
 .bg_time{
-       background: url(/assets/images/timelinebg.jpg); 
+       background: url(assets/images/timelinebg.jpg); 
    background-size: cover;
    background-repeat: no-repeat;
     padding: 0;
@@ -706,7 +706,7 @@ letter-spacing: 0.5px;}
     margin-bottom: 60px;
 }
 .services_banner{
- background: url(/assets/images/video_bg.png) no-repeat 0 0;
+ background: url(assets/images/video_bg.png) no-repeat 0 0;
 
 }
 video#vid {
@@ -1455,14 +1455,14 @@ margin-top: calc(-9*var(--ddim));
     text-decoration: none;
 }
 .bannerpart{
-    background:url('/assets/images/banner.jpg');
+    background:url('assets/images/banner.jpg');
   background-size: cover;
     background-repeat: no-repeat;
   margin-top:114px;
   
 }
 .coustomer{
-    background:url('/assets/images/costumar.jpg');
+    background:url('assets/images/costumar.jpg');
   background-size: cover;
     background-repeat: no-repeat;
   
