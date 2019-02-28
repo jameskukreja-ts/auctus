@@ -25,10 +25,7 @@
 		</div>
 	</div>
 	<div class="col-md-7 services_banner">
-		<video autoplay="" loop="" poster="polina.jpg" id="vid">
-			<source src="https://media.istockphoto.com/videos/business-associates-analysing-data-video-id876970482" type="video/webm">
-			<source src="https://media.istockphoto.com/videos/business-associates-analysing-data-video-id876970482" type="video/mp4">
-		</video>
+		<video autoplay="true" controls="controls" controlslist="nodownload" data-alt="Stock Video Clip Stock Footage Video" loop="true" src="https://media.istockphoto.com/videos/business-associates-analysing-data-video-id876970482" id="vid"></video>
 		<h1 class="mobile_text">You handlE <br>the patients,<br><span> We’ll handle <br>the business</span></h1>
 	</div>
 </div>
