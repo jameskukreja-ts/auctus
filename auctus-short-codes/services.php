@@ -20,14 +20,15 @@
 			<img class="img-odd" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services04.png"><br>
 			<div class="font_cls img-font"><b><i>Business Development</i></b></div>
 		</div>
-
 		<div class="lear_more_btn">
 			<a href="#">LEARN MORE ></a>
 		</div>
-
 	</div>
 	<div class="col-md-7 services_banner">
-		<img src="<?php echo get_stylesheet_directory_uri()?>/assets/images/mobile_service.jpg" class="mobile_view">
+		<video autoplay="" loop="" poster="polina.jpg" id="vid">
+			<source src="https://media.istockphoto.com/videos/business-associates-analysing-data-video-id876970482" type="video/webm">
+			<source src="https://media.istockphoto.com/videos/business-associates-analysing-data-video-id876970482" type="video/mp4">
+		</video>
 		<h1 class="mobile_text">You handlE <br>the patients,<br><span> We’ll handle <br>the business</span></h1>
 	</div>
 </div>
