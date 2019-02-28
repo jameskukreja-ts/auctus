@@ -59,7 +59,7 @@
 						$valuesQuery->the_post(); 
 				?>			<div class="swiper-slide">
 					          <div class="teamimage">
-					              <img alt="<?php the_title(); ?>" src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'image', true ) ?>" />
+					              <img class="img-responsive" alt="<?php the_title(); ?>" src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'image', true ) ?>" />
 					          </div>
 					          <div class="team_description">
 					              <h4><?php the_title(); ?></h4>

@@ -47,7 +47,7 @@
 						$valuesQuery->the_post(); 
 				?>			<div class="swiper-slide">
 					          <div class="core_value_image">
-					              <img alt="<?php the_title(); ?>" src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'background_image', true ) ?>" />
+					              <img class="img-responsive" alt="<?php the_title(); ?>" src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'background_image', true ) ?>" />
 					          </div>
 					          <div class="core_value_description">
 					              <h4><?php the_title(); ?></h4>
