@@ -1533,3 +1533,33 @@ margin-top: calc(-9*var(--ddim));
 }
 }
 
+.auctus_testimonial1 p{
+margin: 5em 0px 0em 7em;
+}
+.auctus_testimonial1 h5{
+color: #fff;
+   margin-left: 9em;
+font-style: italic;
+}
+.auctus_testimonial3 h5{
+   margin: -1em 0px 13em;
+   color: #fff;
+font-style: italic;
+}
+.auctus_testimonial3 p{
+margin-top:-1em;
+}
+.auctus_testimonial2 h5{
+  font-style: italic;
+   color: #fff;
+}
+
+@media screen and (max-device-width: 768px) and (min-device-width: 320px){
+.auctus_testimonial1 p {
+   margin: 3em 0px 0em 0em;
+}
+
+.auctus_testimonial12 p {
+   margin-top: 1em;
+}
+}
