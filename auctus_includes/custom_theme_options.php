@@ -160,5 +160,16 @@
 <?php
 
 	}
+	//Adds footer text to footer menu
+	function auctus_nav_menu_items($items, $args) {
+	    if($args->theme_location === 'footer'){
+	      
+	       $newItem = '<li  class="menu-item menu-item-type-post_type">© 2018 '.get_option('auctus_copyright_text').'</li>';
+	       $items = $newItem.$items;
+	    }
+
+	    return $items;
+	}
+	add_filter('wp_nav_menu_items', 'auctus_nav_menu_items', 10, 2);
 
 ?>

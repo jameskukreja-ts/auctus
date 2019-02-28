@@ -8,11 +8,28 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-child
 */
-
+ .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
 
 .main-menu-more{
   display: none;
 }
+
+li[id="dot1"] ~ .line {
+transform: translateX(var(--ddim));
+}
+
+/* auctus css starts here */
+
 *{margin:0;padding:0;text-decoration:none}
 body{font-family:'lato', sans-serif;}
 header{position:relative;width:100%;background:#111111;}

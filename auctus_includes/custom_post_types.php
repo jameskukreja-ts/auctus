@@ -10,14 +10,14 @@ function getAuctusPostTypes(){
         'name' => 'Core Value',
         'plural_name' => 'Core Values',
         'register_as' => 'core_values',
-        'supports' => ['title', 'editor', 'thumbnail', 'revisions', 'custom-fields'],
-        'custom_fields' => ['icon' => ['type' => 'image']]
+        'supports' => ['title', 'editor', 'revisions', 'custom-fields'],
+        'custom_fields' => ['font_awesome_icon_class' => ['type' => 'text'], 'background_image' => ['type' => 'image'], 'sort_order' => ['type' => 'text']]
       ],
       [
         'name' => 'Teammate',
         'plural_name' => 'Teammates',
         'register_as' => 'teammates',
-        'supports' => ['title', 'editor', 'thumbnail', 'revisions'],
+        'supports' => ['title', 'editor', 'revisions'],
         'custom_fields' => ['designation' => ['type' => 'text'], 'image' => ['type' => 'image']]
       ],
       [
