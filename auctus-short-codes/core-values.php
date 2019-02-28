@@ -1,9 +1,6 @@
-<br><br><br><br>
 <div id="Values" class="container">
 	<div class="multi_logos">
 		<h1>OUR CORE VALUES</h1>
-		<br>
-
 		<?php 
 
 			$args = array(
