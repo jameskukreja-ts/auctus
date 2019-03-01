@@ -11,7 +11,7 @@ function getAuctusPostTypes(){
         'plural_name' => 'Core Values',
         'register_as' => 'core_values',
         'supports' => ['title', 'editor', 'revisions', 'custom-fields'],
-        'custom_fields' => ['font_awesome_icon_class' => ['type' => 'text'], 'background_image' => ['type' => 'image'], 'sort_order' => ['type' => 'text']]
+        'custom_fields' => ['font_icon' => ['type' => 'image'], 'background_image' => ['type' => 'image'], 'sort_order' => ['type' => 'text']]
       ],
       [
         'name' => 'Teammate',
