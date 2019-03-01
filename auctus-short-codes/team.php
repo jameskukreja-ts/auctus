@@ -20,7 +20,7 @@
 				$valuesQuery->the_post(); 
 				$count++;
 		?>			
-					<div class=" abc col-md-4">
+					<div class=" abc col-md-4 col-sm-6">
 						<div class="hvrbox">
 							<img src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'image', true ) ?>" alt="<?php the_title(); ?>" class="hvrbox-layer_bottom" >
 
