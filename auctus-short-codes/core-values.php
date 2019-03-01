@@ -15,8 +15,21 @@
 			if($valuesQuery->have_posts() ) : 
 				while ( $valuesQuery->have_posts() ) :
 				$valuesQuery->the_post(); 
-		?>
-					<div class=" abc col-md-4 col-xs-12 core_value">
+		?>			
+
+					<div class=" abc col-md-4 col-xs-12 col-sm-6 core_value">
+						<div alt="<?php the_title(); ?>" class="hvrbox  hvrbox_set" style="background-image:url('<?php echo get_post_meta(get_the_id(), '_mcf_'.'background_image', true ) ?>');">
+						<img src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'font_icon', true ) ?>">
+						<h3 class="text_center"><?php the_title(); ?></h3>
+						<div class="hvrbox-layer_top">
+							<div class="hvrbox-text">
+								<?php the_content(); ?>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<!-- <div class=" abc col-md-4 col-xs-12 core_value">
 						<div class="hvrbox">
 							<img src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'background_image', true ) ?>" alt="<?php the_title(); ?>" class="hvrbox-layer_bottom" >
 
@@ -27,7 +40,7 @@
 							</div>
 						</div>
 
-					</div>
+					</div> -->
 		<?php
 				endwhile;
 			endif;
