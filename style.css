@@ -141,7 +141,7 @@ margin-left:4em;
     /* font-weight: 600; */
 }
 .bg_images{
-     background: url(../images/section_bg.jpg); 
+     background: url('assets/images/section_bg.jpg'); 
    background-size: cover;
    background-repeat: no-repeat;
   
@@ -270,12 +270,12 @@ margin-right:12px;}
     margin-top: 2.5em;
 }
 .banner_part{
-   background-image: url('images/banner.png');
+   background-image: url('assets/images/banner.png');
       background-repeat: no-repeat;
       background-position: left top;
       padding-top:68px;
 }
-  .practice_ceo{    FLOAT: LEFT;}
+  .practice_ceo{float: left;}
 .INTERESTED_US{background: #6fcbd2;
     padding: 30px;
     text-align: center;
@@ -400,12 +400,8 @@ display:block;
 display:block;
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
-#Values .multi_logos{
-#Promise .col-md-6 img {
-    width: 75% !important; */
-}
-display:none;
-}
+  #Values .multi_logos{display:none;}
+  #Promise .col-md-6 img {width: 75% !important;}
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
   .logo_menu li a img {
@@ -438,7 +434,7 @@ margin-bottom:0px;
     z-index: 999;
 }
 .services_banner{
-background:url('../images/mobile_video_bg.png') !important;
+background:url('assets/images/mobile_video_bg.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat;
 }
@@ -514,7 +510,7 @@ see-work{display:none;}
       width: 100%;
 }
 .services_banner {
-    background: url(../images/services1.jpg); 
+    background: url('assets/images/services1.jpg'); 
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     padding: 0;
@@ -659,10 +655,9 @@ margin-left: -1em;}
 }
 
 .bg_time{
-       background: url(../images/timelinebg.jpg); 
+       background: url('assets/images/timelinebg.jpg'); 
    background-size: cover;
    background-repeat: no-repeat;
-  url(../images/timelinebg.jpg);
     padding: 0;
   
 }
@@ -715,7 +710,7 @@ letter-spacing: 0.5px;}
     margin-bottom: 60px;
 }
 .services_banner{
- background: url(../images/video_bg.png) no-repeat 0 0;
+ background: url('assets/images/video_bg.png') no-repeat 0 0;
 
 }
 video#vid {
@@ -727,7 +722,6 @@ video#vid {
     width: auto;
     height: auto;
     z-index: -100;
-    background: url(polina.jpg) no-repeat;
     background-size: cover;
     margin: 0 auto;
    
@@ -941,7 +935,7 @@ list-style-type: none;
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+  background: url('assets/images/cd-arrow.svg') no-repeat 0 0;
 }
 .cd-timeline-navigation a.prev {
   left: 0;
@@ -1464,14 +1458,14 @@ margin-top: calc(-9*var(--ddim));
     text-decoration: none;
 }
 .bannerpart{
-    background:url('../images/banner.jpg');
+    background:url('assets/images/banner.jpg');
   background-size: cover;
     background-repeat: no-repeat;
   margin-top:114px;
   
 }
 .coustomer{
-    background:url('../images/costumar.jpg');
+    background:url('assets/images/costumar.jpg');
   background-size: cover;
     background-repeat: no-repeat;
   
