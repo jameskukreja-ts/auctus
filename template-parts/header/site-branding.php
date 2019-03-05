@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="logo"><a href="#"><img src="<?php echo get_option( 'auctus_header_logo' ) ?>"></a><span><?php echo get_option( 'auctus_header_text' ) ?></span></div>
+	<div class="logo"><a href="#"><img src="<?php echo get_option( 'auctus_header_logo' ) ?>" alt="Site logo"></a><span><?php echo get_option( 'auctus_header_text' ) ?></span></div>
 
 	<nav class="navbar navbar-inverse" >
 		<div class="container">
