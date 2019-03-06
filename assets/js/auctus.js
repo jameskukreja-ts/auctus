@@ -33,6 +33,7 @@ jQuery(document).ready(function(){
     jQuery(".hideshow").click(function(){
         jQuery(".slidingDiv").toggle(1000);
     });
+    AOS.init();
 });
 
 

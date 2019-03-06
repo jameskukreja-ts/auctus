@@ -1,3 +1,8 @@
+<?php 
+// echo '<pre>';
+// print_r($attrs);
+// die();
+?>
 <div id="Promise" class="coustomer container">
 <div class="multi_logos">
    <h1>OUR CUSTOMER PROMISE</h1>

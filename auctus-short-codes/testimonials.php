@@ -23,7 +23,7 @@
 <div id="tesmonial" class=" bg_images">
 	<div class="container">
 		<div class="multi_logos testmonial">
-			<div  data-aos="fade-right" class="col-md-6 auctus_testimonial1">
+			<div class="col-md-6 auctus_testimonial1" data-aos-duration="1500" data-aos="fade-right">
 				<?php if(isset($testimonials[0]) && !empty($testimonials[0])): ?>
 					<p><?php echo $testimonials[0]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[0]['author'] ?></h5>
@@ -31,14 +31,14 @@
 			</div>
 
 		</div>
-		<div class="mid_contant">
-			<h1 data-aos="fade-right">From strategic planning <br>through execution....<br><span data-aos="fade-left">you name it,<br>we’ve done it.</span></h1>
-			<div data-aos="fade-up" data-aos-duration="3000" class="discovery_more_btn">
+		<div class="mid_contant" data-aos-duration="1500" data-aos="zoom-in-right">
+			<h1>From strategic planning <br>through execution....<br><span>you name it,<br>we’ve done it.</span></h1>
+			<div class="discovery_more_btn">
 				<a href="#">DISCOVER MORE ></a>
 			</div>
 		</div>
 		<div class="multi_logos testmonial">
-			<div data-aos="fade-up-right" class="col-md-4 auctus_testimonial2">
+			<div class="col-md-4 auctus_testimonial2" data-aos-duration="1500" data-aos="fade-right">
 				<?php if(isset($testimonials[1]) && !empty($testimonials[1])): ?>
 					<p><?php echo $testimonials[1]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[1]['author'] ?></h5>
@@ -47,7 +47,7 @@
 			<div class="col-md-4">
 				&nbsp;
 			</div>
-			<div data-aos="fade-left" class="col-md-4 auctus_testimonial3">
+			<div class="col-md-4 auctus_testimonial3" data-aos-duration="1500" data-aos="fade-left">
 				<?php if(isset($testimonials[2]) && !empty($testimonials[2])): ?>
 					<p><?php echo $testimonials[2]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[2]['author'] ?></h5>
