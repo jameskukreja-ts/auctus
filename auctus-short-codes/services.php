@@ -21,7 +21,7 @@
 			<div class="font_cls img-font"><b><i>Business Development</i></b></div>
 		</div>
 		<div class="lear_more_btn">
-			<a href="#">LEARN MORE ></a>
+			<a href="#"><?php echo $attrs['buttontext'];?> ></a>
 		</div>
 	</div>
 	<div class="col-md-7 services_banner">
