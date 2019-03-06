@@ -23,7 +23,7 @@
 <div id="tesmonial" class=" bg_images">
 	<div class="container">
 		<div class="multi_logos testmonial">
-			<div class="col-md-6 auctus_testimonial1" data-aos-duration="1500" data-aos="fade-right">
+			<div class="col-md-6 auctus_testimonial1 animated fadeInLeft delay-1">
 				<?php if(isset($testimonials[0]) && !empty($testimonials[0])): ?>
 					<p><?php echo $testimonials[0]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[0]['author'] ?></h5>
@@ -31,14 +31,14 @@
 			</div>
 
 		</div>
-		<div class="mid_contant" data-aos-duration="1500" data-aos="zoom-in-right">
+		<div class="mid_contant animated fadeIn delay-4">
 			<h1>From strategic planning <br>through execution....<br><span>you name it,<br>we’ve done it.</span></h1>
 			<div class="discovery_more_btn">
 				<a href="#"><?php echo $attrs['buttontext'];?> ></a>
 			</div>
 		</div>
 		<div class="multi_logos testmonial">
-			<div class="col-md-4 auctus_testimonial2" data-aos-duration="1500" data-aos="fade-right">
+			<div class="col-md-4 auctus_testimonial2 animated fadeInLeft delay-2">
 				<?php if(isset($testimonials[1]) && !empty($testimonials[1])): ?>
 					<p><?php echo $testimonials[1]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[1]['author'] ?></h5>
@@ -47,7 +47,7 @@
 			<div class="col-md-4">
 				&nbsp;
 			</div>
-			<div class="col-md-4 auctus_testimonial3" data-aos-duration="1500" data-aos="fade-left">
+			<div class="col-md-4 auctus_testimonial3 animated fadeInRight delay-3">
 				<?php if(isset($testimonials[2]) && !empty($testimonials[2])): ?>
 					<p><?php echo $testimonials[2]['testimonial'] ?></p>
 					<h5><?php echo $testimonials[2]['author'] ?></h5>
