@@ -8,7 +8,7 @@
 		add_shortcode($shortCode, 'render_'.$shortCode.'_shortcode');
 	}
 
-	function getShortCode($filePath){
+	function getShortCode($filePath, $attrs){
 		ob_start();
 		include $filePath;
 		$out1 = ob_get_clean();
@@ -16,35 +16,35 @@
 	}
 
 
-	function render_auctus_hero_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/hero.php' );
+	function render_auctus_hero_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/hero.php', $attrs );
 	}
 
-	function render_auctus_testimonials_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/testimonials.php' );
+	function render_auctus_testimonials_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/testimonials.php', $attrs );
 	}
 
-	function render_auctus_team_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/team.php' );
+	function render_auctus_team_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/team.php', $attrs );
 	}
 
-	function render_auctus_services_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/services.php' );
+	function render_auctus_services_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/services.php', $attrs );
 	}
 
-	function render_auctus_promise_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/promise.php' );
+	function render_auctus_promise_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/promise.php', $attrs );
 	}
 
-	function render_auctus_nav_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/nav.php' );
+	function render_auctus_nav_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/nav.php', $attrs );
 	}
 
-	function render_auctus_history_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/history.php' );
+	function render_auctus_history_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/history.php', $attrs );
 	}
 	
-	function render_auctus_core_values_shortcode(){
-		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/core-values.php' );
+	function render_auctus_core_values_shortcode($attrs){
+		return getShortCode( STYLESHEETPATH.'/auctus-short-codes/core-values.php', $attrs );
 	}
 ?>

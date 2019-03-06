@@ -1,4 +1,4 @@
-<div class="bannerpart">
+<div class="bannerpart" style="background: url('<?php echo $attrs['bgimg']?>')">
 <div class="container">
 <div class="see-work">DICOVER MORE</div>
 </div>
@@ -7,7 +7,7 @@
     position: relative;">
 						<h1 class="banner_contant">WHO WE ARE</H1>
 						<h3 class="sami_contant">The Auctus Group</h3>
-<a href="#myModal" data-toggle="modal" data-target="#myModal" class="btn btn-default"><span class="glyphicon glyphicon-play"></span> Lorem Ipsum Dolor Sit Amet</a>
+<a href="#myModal" data-toggle="modal" data-target="#myModal" class="btn btn-default"><span class="glyphicon glyphicon-play"></span> <?php echo $attrs['buttontext'] ?></a>
 						
 						
 						
