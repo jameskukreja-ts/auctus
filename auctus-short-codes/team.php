@@ -1,8 +1,6 @@
 <div id="team" class="container">
 	<div class="multi_logos">
 		<h1>TEAM AUCTUS</h1>
-		<br>
-
 		<?php 
 
 			$args = array(
