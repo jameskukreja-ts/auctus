@@ -1,4 +1,4 @@
-<div class="bannerpart" style="background: url('<?php echo $attrs['bgimg']?>')">
+<div class="bannerpart" style="background: url('<?php echo $attrs['bgimg']?>');background-size: cover;background-repeat: no-repeat;">
 <div class="container">
 <div class="see-work">DISCOVER MORE</div>
 </div>
@@ -14,9 +14,6 @@ if(isset($attrs['buttontext']) && !empty($attrs['buttontext'])){
 }
 ?>
 </a>
-						
-						
-						
 					</div>
 
 
