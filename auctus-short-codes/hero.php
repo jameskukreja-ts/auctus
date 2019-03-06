@@ -7,7 +7,13 @@
     position: relative;">
 						<h1 class="banner_contant">WHO WE ARE</H1>
 						<h3 class="sami_contant">The Auctus Group</h3>
-<a href="#myModal" data-toggle="modal" data-target="#myModal" class="btn btn-default"><span class="glyphicon glyphicon-play"></span> <?php echo $attrs['buttontext'] ?></a>
+<a href="#myModal" data-toggle="modal" data-target="#myModal" class="btn btn-default"><span class="glyphicon glyphicon-play"></span>
+<?php 
+if(isset($attrs['buttontext']) && !empty($attrs['buttontext'])){
+  echo $attrs['buttontext'];  
+}
+?>
+</a>
 						
 						
 						
