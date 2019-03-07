@@ -17,7 +17,7 @@
 			<div class="font_cls "><b><i>Medical Billing</i></b></div>
 		</div>
 		<div class="col-md-6 col-xs-6">
-			<img class="img-odd" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services04.png"><br>
+			<img class="img-odd last_img" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services04.png">
 			<div class="font_cls img-font"><b><i>Business Development</i></b></div>
 		</div>
 		<div class="lear_more_btn">
