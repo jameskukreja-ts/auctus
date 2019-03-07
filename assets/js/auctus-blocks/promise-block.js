@@ -16,27 +16,30 @@
 		category: 'layout',
 		
 		attributes: {
-			img: {
-				type: 'string',
-				source: 'html',
-                // default:'Test',
-				selector: 'img',
-				attribute: 'src',
-			},
-			signatureImg: {
-				type: 'string',
-				source: 'html',
-                // default:'Test',
-				selector: 'img',
-				attribute: 'src',
-			},
+
+            img: {
+                type: 'string',
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'img'
+            },
+            signatureImg: {
+                type: 'string',
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'signatureimg'
+            },
             boldText: {
                 type: 'string',
-                source: 'html'
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'boldtext'
             },
             plainText: {
                 type: 'string',
-                source: 'html'
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'plaintext'
             }
 
 		},
@@ -81,7 +84,9 @@
 
 			return [
                 el( 'span', {}, '[auctus_promise img="'+img+'" boldText="'+boldText+'" signatureImg="'+signatureImg+'" plainText="'+plainText+'"]',
-    				el( InspectorControls, { key: 'inspector' },
+                // el( 'span', {}, '[auctus_promise]',
+    				
+                    el( InspectorControls, { key: 'inspector' },
     					
                         el( components.PanelBody, {
                                 title: 'Bold Text',
@@ -162,7 +167,7 @@
             var boldText = typeof(attributes.boldText) == "undefined" || attributes.boldText === null ? "" : attributes.boldText; 
             var plainText = typeof(attributes.plainText) == "undefined" || attributes.plainText === null ? "" : attributes.plainText; 
 
-            return el( 'span', {}, '[auctus_promise img="'+img+'" boldText="'+boldText+'" signatureImg="'+signatureImg+'" plainText="'+plainText+'"]' );
+            return el( 'span', {img:img, signatureimg:signatureImg, boldtext : boldText, plaintext:plainText}, '[auctus_promise img="'+img+'" boldText="'+boldText+'" signatureImg="'+signatureImg+'" plainText="'+plainText+'"]' );
 
 		},
 

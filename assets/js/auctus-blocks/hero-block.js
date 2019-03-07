@@ -16,23 +16,28 @@
 		category: 'layout',
 		
 		attributes: {
-			bgImg: {
-				type: 'string',
-				source: 'html',
-                // default:'Test',
-				selector: 'img',
-				attribute: 'src',
-			},
-            buttonText: {
+			buttonText: {
                 type: 'string',
-                source: 'html'
-            }
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'buttontext',
+
+            },
+            bgImg: {
+				type: 'string',
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'bgimg',
+			}
+            
 		},
 
 
 		edit: withState({status: ''}) (function( props ) {
 		    
 		    var attributes = props.attributes;
+            console.log('props');
+            console.log(props);
 		    
 		    var HeroBgImg = function( media ) {
 				
@@ -46,15 +51,14 @@
                     buttonText: buttonProps
                 });
             };
-
-            console.log('in Edit');
-            console.log(attributes);
-            // var bgUrl = typeof(attributes.bgImg) == "undefined" || !attributes.bgImg ? "Hello" : attributes.bgImg; 
-            var bgUrl = typeof(attributes.bgImg) == "undefined" || attributes.bgImg === null ? "" : attributes.bgImg; 
+            // var bgImg = typeof(attributes.bgImg) == "undefined" || !attributes.bgImg ? "Hello" : attributes.bgImg; 
+            var bgImg = typeof(attributes.bgImg) == "undefined" || attributes.bgImg === null ? "" : attributes.bgImg; 
             var buttonText = typeof(attributes.buttonText) == "undefined" || attributes.buttonText === null ? "" : attributes.buttonText; 
 
 			return [
-                el( 'span', {}, '[auctus_hero bgImg="'+bgUrl+'" buttonText="'+buttonText+'"]',
+                el( 'span', {}, '[auctus_hero bgImg="'+bgImg+'" buttonText="'+buttonText+'"]',
+                // el( 'span', {}, '[auctus_hero]',
+
     				el( InspectorControls, { key: 'inspector' },
     					
                         el( components.PanelBody, {
@@ -98,10 +102,16 @@
 		save: function( props ) {
             
             var attributes = props.attributes;
-            var bgUrl = typeof(attributes.bgImg) == "undefined" || attributes.bgImg === null ? "" : attributes.bgImg; 
-            var buttonText = typeof(attributes.buttonText) == "undefined" || attributes.buttonText === null ? "" : attributes.buttonText; 
 
-            return el( 'span', {}, '[auctus_hero bgImg="'+bgUrl+'" buttonText="'+buttonText+'"]' );
+            var bgImg = typeof(attributes.bgImg) == "undefined" || attributes.bgImg === null ? "" : attributes.bgImg; 
+            var buttonText = typeof(attributes.buttonText) == "undefined" || attributes.buttonText === null ? "" : attributes.buttonText; 
+            
+            
+            return el( 'span', {bgimg: bgImg, buttontext : buttonText}, '[auctus_hero bgImg="'+bgImg+'" buttonText="'+buttonText+'"]' );
+            // return el( 'span', {
+            //     class:bgImg,
+            //     id:buttonText
+            // }, '[auctus_hero]');
 
 		},
 

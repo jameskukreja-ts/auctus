@@ -18,13 +18,17 @@
 		category: 'layout',
 		
 		attributes: {
-			text: {
+			pageText: {
                 type: 'string',
-                source: 'html'
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'pagetext'
             },
             buttonText: {
                 type: 'string',
-                source: 'html'
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'buttontext'
             }
 		},
 
@@ -86,7 +90,7 @@
             var pageText = typeof(attributes.pageText) == "undefined" || attributes.pageText === null ? "" : attributes.pageText; 
             var buttonText = typeof(attributes.buttonText) == "undefined" || attributes.buttonText === null ? "" : attributes.buttonText; 
 
-            return el( 'span', {}, '[auctus_testimonials buttonText="'+buttonText+'" pageText="'+pageText+'"]' );
+            return el( 'span', {pagetext:pageText, buttontext:buttonText}, '[auctus_testimonials buttonText="'+buttonText+'" pageText="'+pageText+'"]' );
 
 		},
 

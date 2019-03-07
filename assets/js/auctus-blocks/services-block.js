@@ -18,13 +18,17 @@
 		category: 'layout',
 		
 		attributes: {
-			text: {
+			pageText: {
                 type: 'string',
-                source: 'html'
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'pagetext'
             },
             buttonText: {
                 type: 'string',
-                source: 'html'
+                source: 'attribute',
+                selector: 'span',
+                attribute: 'buttontext'
             }
 		},
 
@@ -85,8 +89,9 @@
             var attributes = props.attributes;
             var pageText = typeof(attributes.pageText) == "undefined" || attributes.pageText === null ? "" : attributes.pageText; 
             var buttonText = typeof(attributes.buttonText) == "undefined" || attributes.buttonText === null ? "" : attributes.buttonText; 
-
-            return el( 'span', {}, '[auctus_services buttonText="'+buttonText+'" pageText="'+pageText+'"]' );
+            console.log('in Save');
+            console.log(attributes);
+            return el( 'span', {pagetext:pageText, buttontext:buttonText}, '[auctus_services buttonText="'+buttonText+'" pageText="'+pageText+'"]' );
 
 		},
 
