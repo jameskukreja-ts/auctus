@@ -1,7 +1,7 @@
 <div id="service" class="container section_set">
 	<div class="col-md-5 servi_ce">
 		<div class="multi_logos">
-			<h1 class="head_for_service">OUR SERVICES</h1>
+			<h2 class="head_for_service">OUR SERVICES</h2>
 			<h4 class="sub_heading">EXCLUSIVE TO AESTHETIC MEDICINE</h4>
 		</div>
 		<div class="col-md-6 col-xs-6">
@@ -26,12 +26,12 @@
 	</div>
 	<div class="col-md-7 services_banner">
 		<video autoplay="true" controls="controls" controlslist="nodownload" data-alt="Stock Video Clip Stock Footage Video" loop="true" src="https://media.istockphoto.com/videos/business-associates-analysing-data-video-id876970482" id="vid"></video>
-		<h1 class="mobile_text">You handlE <br>the patients,<br><span> We’ll handle <br>the business</span></h1>
+		<h2 class="mobile_text">You handlE <br>the patients,<br><span> We’ll handle <br>the business</span></h2>
 	</div>
 </div>
 <div class="container">
 	<div class="multi_logos">
-		<h1>AFFILIATION </h1>
+		<h2>AFFILIATION </h2>
 		<ul class="logo_menu">
 			<li><a href="#" class="L01"><img  src="<?php echo get_stylesheet_directory_uri()?>/assets/images/alogo01.png" alt="kerio" ></a></li>
 			<li><a href="#" class="L02"><img src="<?php echo get_stylesheet_directory_uri()?>/assets/images/alogo02.png" alt="eclinical"></a></li>
@@ -46,7 +46,7 @@
 </div>
 <div class="container">
 	<div class="multi_logos">
-		<h1>TECHNOLOGY PARTNERS </h1>
+		<h2>TECHNOLOGY PARTNERS </h2>
 		<ul class="logo_menu">
 			<li><a href="#" class="L01"><img  src="<?php echo get_stylesheet_directory_uri()?>/assets/images/logo01.png" alt="kerio" ></a></li>
 			<li><a href="#" class="L02"><img src="<?php echo get_stylesheet_directory_uri()?>/assets/images/logo02.png" alt="eclinical"></a></li>

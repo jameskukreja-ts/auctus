@@ -1,6 +1,6 @@
 <div id="Values" class="container">
 	<div class="multi_logos">
-		<h1>OUR CORE VALUES</h1>
+		<h2>OUR CORE VALUES</h2>
 		<?php 
 
 			$args = array(
@@ -48,7 +48,7 @@
 
 	</div>
 	<div class="mobileonly">
-		<h1>OUR CORE VALUES</h1>
+		<h2>OUR CORE VALUES</h2>
 		<div class="swiper-container" id="core_values_slider">
 		    <div class="swiper-wrapper">
 				<?php

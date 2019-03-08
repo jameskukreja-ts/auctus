@@ -32,7 +32,7 @@
 
 		</div>
 		<div class="mid_contant" data-aos-duration="1500" data-aos="zoom-in-right">
-			<h1>From strategic planning <br>through execution....<br><span>you name it,<br>we’ve done it.</span></h1>
+			<h2>From strategic planning <br>through execution....<br><span>you name it,<br>we’ve done it.</span></h2>
 			<div class="discovery_more_btn">
 				<a href="#"><?php echo $attrs['buttontext'];?> ></a>
 			</div>

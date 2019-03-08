@@ -1,6 +1,6 @@
 <div id="team" class="container">
 	<div class="multi_logos">
-		<h1>TEAM AUCTUS</h1>
+		<h2>TEAM AUCTUS</h2>
 		<?php 
 
 			$args = array(
@@ -48,7 +48,7 @@
 		<?php endif;?>
 	</div>
 	<div class="mobileonly">
-		<h1>TEAM AUCTUS</h1>
+		<h2>TEAM AUCTUS</h2>
 		<div class="swiper-container" id="team_slider">
 		    <div class="swiper-wrapper">
 				<?php
