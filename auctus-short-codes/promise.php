@@ -1,6 +1,6 @@
 <div id="Promise" class="coustomer container">
 <div class="multi_logos">
-   <h2>OUR CUSTOMER PROMISE</h2>
+   <h1>OUR CUSTOMER PROMISE</h1>
    <div class="col-md-6">
       <img src="<?php echo $attrs['img'];?>" alt = "Auctus Promise Image" class="img-responsive" style="width:100%;">
    </div>
