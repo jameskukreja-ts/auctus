@@ -1,4 +1,4 @@
-<div id="service" class="container section_set">
+<div id="service" class="container-fluid section_set">
 	<div class="col-md-5 servi_ce">
 		<div class="multi_logos">
 			<h1 class="head_for_service">OUR SERVICES</h1>

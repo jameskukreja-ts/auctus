@@ -1,4 +1,6 @@
-<div id="Promise" class="coustomer container">
+
+<div class="container-fluid coustomer">
+<div id="Promise" class=" container">
 <div class="multi_logos">
    <h1>OUR CUSTOMER PROMISE</h1>
    <div class="col-md-6">
@@ -14,6 +16,7 @@
 <br><img src="<?php echo $attrs['signatureimg'];?>" alt = "Signature Image">
 
 
+</div>
 </div>
 </div>
 </div>
