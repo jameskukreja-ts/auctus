@@ -6,19 +6,19 @@
 		</div>
 		<div class="col-md-6 col-xs-6">
 			<img alt = "Service 1" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services01.png">
-			<div class="font_cls font-italic"><strong>Finance</strong></div>
+			<div class="font_cls"><strong>Finance</strong></div>
 		</div>
 		<div class="col-md-6 col-xs-6">
 			<img alt = "Service 2" class="img-odd" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services02.png">
-			<div class="font_cls font-italic img-font"><strong>Operations</strong></div>
+			<div class="font_cls img-font"><strong>Operations</strong></div>
 		</div>
 		<div class="col-md-6 col-xs-6">
 			<img alt = "Service 3" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services03.png">
-			<div class="font_cls font-italic"><strong>Medical Billing</strong></div>
+			<div class="font_cls"><strong>Medical Billing</strong></div>
 		</div>
 		<div class="col-md-6 col-xs-6">
 			<img alt = "Service 4" class="img-odd last_img" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services04.png">
-			<div class="font_cls font-italic img-font"><strong>Business Development</strong></div>
+			<div class="font_cls img-font"><strong>Business Development</strong></div>
 		</div>
 		<div class="lear_more_btn">
 			<a href="#"><?php echo $attrs['buttontext'];?> ></a>
