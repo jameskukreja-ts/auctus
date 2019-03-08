@@ -42,13 +42,13 @@
 							</ul> -->
 					</div> <!-- End Col -->
 					<div class="col-md-1 col-sm-1 col-xs-4">
-						<a href=""><img src="<?php echo get_option('auctus_footer_image_1') ?>" width="80"></a>
+						<a href=""><img src="<?php echo get_option('auctus_footer_image_1') ?>" alt ="footer_image_1" width="80"></a>
 					</div>
 					<div class="col-md-1 col-sm-1 col-xs-4">
-						<a href=""><img src="<?php echo get_option('auctus_footer_image_2') ?>"  width="85"></a>
+						<a href=""><img src="<?php echo get_option('auctus_footer_image_2') ?>"  alt ="footer_image_2" width="85"></a>
 					</div>
 					<div class="col-md-1 col-sm-1 col-xs-4">
-						<a href=""><img src="<?php echo get_option('auctus_footer_image_3') ?>" width="80"></a>
+						<a href=""><img src="<?php echo get_option('auctus_footer_image_3') ?>"  alt ="footer_image_3" width="80"></a>
 					</div>
 
 				</div>

@@ -1,6 +1,6 @@
 <div class="container">
 	<ul class="list slider-nav dark">
-		<li class="line"><img src="<?php echo get_stylesheet_directory_uri().'/assets/images/bullet.png'; ?>"></li>
+		<li class="line"><img alt = "Nav Bullet" src="<?php echo get_stylesheet_directory_uri().'/assets/images/bullet.png'; ?>"></li>
 		<a href="#Values"><li data-slide="1" id="dot1">Values</li></a>
 		<a href="#Promise"><li data-slide="2" id="dot2">Promise</li></a>
 		<a href="#History"><li data-slide="3" id="dot3">History</li></a>
