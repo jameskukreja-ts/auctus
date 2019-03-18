@@ -23,7 +23,11 @@
 	<!-- <link href="<?php echo get_stylesheet_directory_uri(). '/assets/css/auctus-animate.css'?>" rel="stylesheet"> -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<link href="<?php echo get_stylesheet_directory_uri(). '/assets/css/auctus-timeline-events.css'?>" rel="stylesheet">
+	<link href="<?php echo get_stylesheet_directory_uri(). '/assets/css/auctus-timeline-content.css'?>" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
 	<?php wp_head(); ?>
 </head>
 
