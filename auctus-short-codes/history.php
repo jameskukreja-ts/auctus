@@ -32,7 +32,7 @@
 										<li>
 											<a href="#0" id="content-<?php echo $index; ?>" data-date="<?php echo get_the_title(); ?>"  class = "<?php echo ($index < 1 ? 'selected' : ''); ?>"></a>
 											<span class="event-content-span">
-												<p class="event-content-year"><?php echo get_the_title(); ?> <i class="fas fa-map-marker-alt" style="font-size: 27px;"></i></p><br>
+												<p class="event-content-year"><?php echo get_the_title(); ?> <em class="fas fa-map-marker-alt" style="font-size: 27px;"></em></p><br>
 												<p class ="event-content"> 
 													<?php echo get_the_content(); ?>
 												</p>
@@ -82,8 +82,8 @@
 				</div> <!-- .events-wrapper -->
 					
 				<ul class="cd-timeline-navigation">
-					<li><a href="#0" class="prev inactive"><i class="fas fa-angle-left" style="font-size: 48px;"></i></a></li>
-					<li><a href="#0" class="next"><i class="fas fa-angle-right" style="font-size: 48px;"></i></a></li>
+					<li><a href="#0" class="prev inactive"><em class="fas fa-angle-left" style="font-size: 48px;"></em></a></li>
+					<li><a href="#0" class="next"><em class="fas fa-angle-right" style="font-size: 48px;"></em></a></li>
 				</ul> <!-- .cd-timeline-navigation -->
 			</div> <!-- .timeline -->
 		</section>
@@ -97,7 +97,7 @@
 						$valuesQuery->the_post(); 
 				?>			<div class="swiper-slide">
 					          <div class = "history-slide">
-					              <h2><?php echo get_the_title(); ?> <i class="fas fa-map-marker-alt" style="font-size: 27px;"></i></h2>
+					              <h2><?php echo get_the_title(); ?> <em class="fas fa-map-marker-alt" style="font-size: 27px;"></em></h2>
 					              <?php the_content(); ?>
 					          </div>
 					      </div>
