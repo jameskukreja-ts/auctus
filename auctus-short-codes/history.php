@@ -2,9 +2,9 @@
 	<h1 class="year_time">
 		HOW WE GOT HERE
 	</h1>
-	<h4 class="year_time_sami">
+	<h2 class="year_time_sami">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-	</h4>
+	</h2>
 	<div id='history-timeline' class="not-mobile">
 		
 		<section class="cd-horizontal-timeline-content">

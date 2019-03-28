@@ -20,7 +20,7 @@
 					<div class=" abc col-md-4 col-xs-12 col-sm-6 core_value">
 						<div alt="<?php the_title(); ?>" class="hvrbox  hvrbox_set" style="background-image:url('<?php echo get_post_meta(get_the_id(), '_mcf_'.'background_image', true ) ?>');">
 						<img src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'font_icon', true ) ?>" alt="<?php the_title(); ?> Icon">
-						<h3 class="text_center"><?php the_title(); ?></h3>
+						<h2 class="text_center"><?php the_title(); ?></h2>
 						<div class="hvrbox-layer_top">
 							<div class="hvrbox-text">
 								<?php the_content(); ?>
@@ -60,7 +60,7 @@
 					              <img class="img-responsive" alt="<?php the_title(); ?>" src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'background_image', true ) ?>" />
 					          </div>
 					          <div class="core_value_description">
-					              <h4><?php the_title(); ?></h4>
+					              <h2><?php the_title(); ?></h2>
 					              <?php the_content(); ?>
 					          </div>
 					      </div>

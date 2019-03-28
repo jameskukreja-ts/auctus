@@ -2,7 +2,7 @@
 	<div class="col-md-5 servi_ce">
 		<div class="multi_logos">
 			<h1 class="head_for_service">OUR SERVICES</h1>
-			<h4 class="sub_heading">EXCLUSIVE TO AESTHETIC MEDICINE</h4>
+			<h2 class="sub_heading">EXCLUSIVE TO AESTHETIC MEDICINE</h2>
 		</div>
 		<div class="col-md-6 col-xs-6">
 			<img alt = "Service 1" src="<?php echo get_stylesheet_directory_uri()?>/assets/images/services01.png">

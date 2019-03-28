@@ -26,7 +26,7 @@
 			<div class="col-md-6 auctus_testimonial1" data-aos-duration="1500" data-aos="fade-right">
 				<?php if(isset($testimonials[0]) && !empty($testimonials[0])): ?>
 					<p><?php echo $testimonials[0]['testimonial'] ?></p>
-					<h5><?php echo $testimonials[0]['author'] ?></h5>
+					<h2><?php echo $testimonials[0]['author'] ?></h2>
 				<?php endif; ?>
 			</div>
 
@@ -41,7 +41,7 @@
 			<div class="col-md-4 auctus_testimonial2" data-aos-duration="1500" data-aos="fade-right">
 				<?php if(isset($testimonials[1]) && !empty($testimonials[1])): ?>
 					<p><?php echo $testimonials[1]['testimonial'] ?></p>
-					<h5><?php echo $testimonials[1]['author'] ?></h5>
+					<h2><?php echo $testimonials[1]['author'] ?></h2>
 				<?php endif; ?>
 			</div>
 			<div class="col-md-4">
@@ -50,7 +50,7 @@
 			<div class="col-md-4 auctus_testimonial3" data-aos-duration="1500" data-aos="fade-left">
 				<?php if(isset($testimonials[2]) && !empty($testimonials[2])): ?>
 					<p><?php echo $testimonials[2]['testimonial'] ?></p>
-					<h5><?php echo $testimonials[2]['author'] ?></h5>
+					<h2><?php echo $testimonials[2]['author'] ?></h2>
 				<?php endif; ?>
 			</div>
 		</div>

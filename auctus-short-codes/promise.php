@@ -8,7 +8,7 @@
    </div>
    <div class="col-md-6">
 <div class="left_containt">
-<h4><?php echo $attrs['boldtext'];?> </h4>
+<h2><?php echo $attrs['boldtext'];?> </h2>
 </div>
 
 <div class="right_contant">

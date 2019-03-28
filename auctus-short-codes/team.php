@@ -28,8 +28,8 @@
 								</div>
 							</div>
 						</div>
-						<h4><?php the_title(); ?></h4>
-						<h5><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h5>
+						<h2><?php the_title(); ?></h2>
+						<h3><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h3>
 					</div>
 
 		<?php	
@@ -60,8 +60,8 @@
 					              <img class="img-responsive" alt="<?php the_title(); ?>" src="<?php echo get_post_meta(get_the_id(), '_mcf_'.'image', true ) ?>" />
 					          </div>
 					          <div class="team_description">
-					              <h4><?php the_title(); ?></h4>
-					              <h5><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h5>
+					              <h2><?php the_title(); ?></h2>
+					              <h3><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h3>
 					              <?php the_content(); ?>
 					          </div>
 					      </div>
