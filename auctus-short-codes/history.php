@@ -30,7 +30,7 @@
 									$valuesQuery->the_post(); 
 							?>			
 										<li>
-											<a href="#0" id="content-<?php echo $index; ?>" data-date="<?php echo get_the_title(); ?>"  class = "<?php echo ($index < 1 ? 'selected' : ''); ?>"></a>
+											<a title="<?php echo get_the_title(); ?>" href="#0" id="content-<?php echo $index; ?>" data-date="<?php echo get_the_title(); ?>"  class = "<?php echo ($index < 1 ? 'selected' : ''); ?>"></a>
 											<span class="event-content-span">
 												<p class="event-content-year"><?php echo get_the_title(); ?> <em class="fas fa-map-marker-alt" style="font-size: 27px;"></em></p><br>
 												<p class ="event-content"> 
