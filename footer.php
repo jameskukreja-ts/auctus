@@ -20,9 +20,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-9 footer_font">
-						<h3>
+						<h2>
 							<?php echo get_option('auctus_footer_phone') ?>  &nbsp; &nbsp; &nbsp; &nbsp;   <?php echo get_option('auctus_footer_email') ?>		
-						</h3>
+						</h2>
 						<?php if ( has_nav_menu( 'footer' ) ) : ?>
 							<?php
 							wp_nav_menu(
