@@ -66,7 +66,7 @@
 										$valuesQuery->the_post(); 
 							?>			
 										<li>
-											<a href="#0" id="event-<?php echo $index; ?>" data-date="<?php echo get_the_title(); ?>" class="<?php echo ($index < 1 ? 'selected' : ''); ?>">
+											<a href="#0" title="<?php echo get_the_title(); ?>" id="event-<?php echo $index; ?>" data-date="<?php echo get_the_title(); ?>" class="<?php echo ($index < 1 ? 'selected' : ''); ?>">
 												<span class="event-year"><?php echo get_the_title(); ?></span>
 											</a>
 										</li>
