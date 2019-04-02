@@ -29,7 +29,7 @@
 							</div>
 						</div>
 						<h2><?php the_title(); ?></h2>
-						<h2><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h2>
+						<h3><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h3>
 					</div>
 
 		<?php	
@@ -61,7 +61,7 @@
 					          </div>
 					          <div class="team_description">
 					              <h2><?php the_title(); ?></h2>
-					              <h2><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h2>
+					              <h3><?php echo get_post_meta(get_the_id(), '_mcf_'.'designation', true ) ?></h3>
 					              <?php the_content(); ?>
 					          </div>
 					      </div>
